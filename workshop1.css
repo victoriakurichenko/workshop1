@@ -4,6 +4,9 @@ body {
     color:#41525e;
     font-size: 16px;
     line-height: 1.5;
+    max-width: 1140px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -12,7 +15,8 @@ h1 {
     color: #172735;
     line-height: 1.25;
     font-weight: 900;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
+    margin-top: 269px;
     text-align: left;
 }
 
@@ -50,4 +54,101 @@ footer {
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 40px;
+}
+
+
+.hero {
+
+    max-width: 1140px; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*navigation*/
+
+.navigation {
+
+    display:flex;
+    justify-content:flex-end;
+}
+
+.navigation a {
+
+    padding: 11px 22px;
+    margin-left: 4px; 
+
+}
+
+a.logo {
+
+    margin-right: auto;
+}
+
+/* intro */
+
+.intro {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:54px;
+}
+
+.two-column {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:54px;
+}
+
+.faq {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+}
+
+ul {
+
+    padding-left: 20px;
+}
+
+.header-p {
+    font-size: 28px;
+    line-height: 1.29;
+    margin-bottom: 51px;
+
+}
+
+.main-cta {
+
+margin-bottom: 325px;
+
+}
+
+.summary {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:12px;
+
+}
+
+.box-title {
+    font-size: 18px;
+    color: #092838;
+    line-height: 1.44;
+    font-weight: 900;
+    margin-bottom:16px;
+}
+
+
+.white-box {
+
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
 }
